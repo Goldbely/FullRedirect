@@ -1,8 +1,15 @@
+require 'dotenv'
 require 'sinatra'
 
+Dotenv.load
+
 helpers do
+  def redirect_domain
+    ENV.fetch 'REDIRECT_DOMAIN'
+  end
+
   def new_url
-    'https://www.goldbely.com' + request.fullpath
+    redirect_domain + request.fullpath
   end
 end
 
