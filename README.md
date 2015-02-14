@@ -1,4 +1,4 @@
-# Redirector
+# ![FullRedirect](http://i.imgur.com/ldkMQEL.png)
 
 Redirects all `GET` requests from one domain to another.
 
