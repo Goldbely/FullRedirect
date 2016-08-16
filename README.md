@@ -15,3 +15,7 @@ Edit your newly created `.env` file and set `REDIRECT_DOMAIN` to the domain you 
 ## Heroku Configuration
 
 On the app you intend to deploy to, add the `REDIRECT_DOMAIN` env variable and set it to the domain you want your traffic to be redirected to. Then deploy.
+
+---
+
+<a href="https://zenhub.com"><img src="https://raw.githubusercontent.com/ZenHubIO/support/master/zenhub-badge.png"></a>
